@@ -1,0 +1,9 @@
+:expected:
+  :home_page_url: '/#home'
+  :home_page_main_text: 'Software innovation is a journey.'
+  :work_partners_carrers_url: '#work-partners-carrers'
+  :work_partners_carrers_page: 'Work'
+  :talent_solution_page: 'Talent'
+  :ac_academy_page: 'AC Academy'
+  :on_page_footer_city_name: 'BELO HORIZONTE'
+  :menu_options: ['ABOUT', 'WORK', 'SERVICES']

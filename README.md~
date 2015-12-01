@@ -1,0 +1,2 @@
+run tests
+On project root: bundle exec rspec spec/features
