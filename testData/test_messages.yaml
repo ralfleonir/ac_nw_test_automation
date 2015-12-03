@@ -1,10 +1,19 @@
-:end_of:
-  :end_of_test: 'End of tests on new AC website'
+:end_of_tests:
+  :regarding_scroll_through_website: 'End of tests on new AC website regarding "scroll through website" '
+  :regarding_access_menu_pages: 'End of tests on new AC website regarding "access menu pages" '
 
 :error_message:
   :not_on_home_page: 'User is not on website home page'
   :home_page_text_not_visible: 'Home page text is not present on the page'
-  :not_on_work_partners_carrers_page: 'Could not navigate to "Work Partners Carrers" page'
-  :not_on_talent_solutions_page: 'Could not navigate to "Talent Solutions" page'
-  :not_on_ac_academy_page: 'Could not navigate to "AC Academy" page'
-  :not_on_page_footer: 'Could not navigate to page footer'
+  :not_on_work_partners_carrers_page: 'Could not scroll to "Work Partners Carrers" page'
+  :not_on_talent_solutions_page: 'Could not scroll to "Talent Solutions" page'
+  :not_on_ac_academy_page: 'Could not scroll to "AC Academy" page'
+  :not_on_page_footer: 'Could not scroll to page footer'
+  :about_page_not_found: 'Could not navigate to "About" page'
+  :work_page_not_found: 'Could not navigate to "Work" page'
+  :services_page_not_found: 'Could not navigate to "Services" page'
+  :partners_page_not_found: 'Could not navigate to "Partners" page'
+  :careers_page_not_found: 'Could not navigate to "Careers" page'
+  :news_page_not_found: 'Could not navigate to "News" page'
+  :academy_page_not_found: 'Could not navigate to "Academy" page'
+  :contact_page_not_found: 'Could not navigate to "Contact" page'

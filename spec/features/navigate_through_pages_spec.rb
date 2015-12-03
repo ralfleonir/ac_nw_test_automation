@@ -7,7 +7,7 @@ describe 'Avenue Code new website' do
   e2e_test = ParentPage.instance
   page_object = nil
 
-  before do
+  before(:each) do
     @exception = nil
     @custom_error_message = nil
   end
@@ -23,10 +23,10 @@ describe 'Avenue Code new website' do
 
   after(:all) do
     page_object = nil
-    e2e_test.after_test(e2e_test.test_messages[:end_of][:end_of_test])
+    e2e_test.after_test(e2e_test.test_messages[:end_of_tests][:regarding_scroll_through_website])
   end
 
-  context 'navigate through website' do
+  context 'scroll through website' do
     it 'navigates to "home page"' do
       begin
         #expect if is on home page
@@ -46,7 +46,7 @@ describe 'Avenue Code new website' do
       end
     end
 
-    it 'navigates to "work partners carrers" page' do
+    it 'scroll to "work partners carrers" page' do
       begin
         page_object = e2e_test.home_page.navigate_to_WorkPartnersCarrers
         expect(e2e_test.browser.text.include?(e2e_test.expected_data[:expected][:work_partners_carrers_page])).to be true
@@ -56,7 +56,7 @@ describe 'Avenue Code new website' do
       end
     end
 
-    it 'navigates to "talent solutions" page' do
+    it 'scroll to "talent solutions" page' do
       begin
         page_object = page_object.navigate_to_talent_solutions_page
         expect(e2e_test.browser.text.include?(e2e_test.expected_data[:expected][:talent_solution_page]))
@@ -66,7 +66,7 @@ describe 'Avenue Code new website' do
       end
     end
 
-    it 'navigates to "AC Academy" page' do
+    it 'scroll to "AC Academy" page' do
       begin
         page_object = page_object.navigate_to_ac_academy_page
         expect(e2e_test.browser.text.include?(e2e_test.expected_data[:expected][:ac_academy_page]))
@@ -77,7 +77,7 @@ describe 'Avenue Code new website' do
 
     end
 
-    it 'navigates to page footer' do
+    it 'scroll to page footer' do
       begin
         page_object = page_object.navigate_to_footer
         expect(e2e_test.browser.text.include?(e2e_test.expected_data[:expected][:on_page_footer_city_name]))

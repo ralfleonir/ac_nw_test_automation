@@ -7,3 +7,23 @@
   :ac_academy_page: 'AC Academy'
   :on_page_footer_city_name: 'BELO HORIZONTE'
   :menu_options: ['ABOUT', 'WORK', 'SERVICES']
+
+:pages_url:
+  :about_page_url: 'about'
+  :work_page_url: 'work'
+  :services_page_url: 'services'
+  :partners_page_url: 'partners'
+  :careers_page_url: 'careers'
+  :news_page_url: 'news'
+  :academy_page_url: 'academy'
+  :contact_page_url: 'contact'
+
+:page_content:
+  :about_page_content: 'We all start somewhere.'
+  :work_page_content: 'We like different.'
+  :services_page_content: 'Pick Your Path.'
+  :partners_page_content: 'The Company We Keep.'
+  :careers_page_content: 'Wish You Were Here.'
+  :news_page_content: 'Fit To Print.'
+  :academy_page_content: 'Good Consultants Can Make Great Teachers.'
+  :contact_page_content: '400 Montgomery Street, Suite 305'

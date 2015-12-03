@@ -1,2 +1,5 @@
-run tests
-On project root: bundle exec rspec spec/features
+Automation test wrote in Rspec with WatirWebdriver and Page Object pattern
+</d>
+To run tests
+</d>
+On the project root: bundle exec rspec spec/features
